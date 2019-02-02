@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Jogo da Memoria 2.0</title>
+      <link rel="stylesheet"  type="text/css" href="css/style.css"/>
+     
+</head>
+<body>
+<div id="container">
+    <div style="display: flex; justify-content: center">
+        <div id="contenedor">
+            <div class="reloj" id="Minutos">00</div>
+            <div class="reloj" id="Segundos">:00</div>
+            <div class="reloj" id="Centesimas">:00</div>
+            <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+            <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+            <input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+            <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+        </div>
+
+        <img style="position: absolute" src="img/game.png" />
+    </div>
+
+    <div class="divcarta" id="carta0">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta1">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta2">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta"  id="carta3">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta4">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta5">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta6">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta7">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta8">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta9">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta10">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta11">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta12">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta13">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta14">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta15">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta16">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta17">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta18">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta19">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta20">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta21">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta22">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta23">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta24">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta25">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta26">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta27">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta28">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta29">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta30">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+
+    <div class="divcarta" id="carta31">
+        <div class="face back"></div>
+        <div class="face front"></div>
+    </div>
+</div>
+<div class="modalGameOver">
+    <img src="img/controle5.png"onClick="gameOver2()" class="imgModal" />
+</div>
+<script src="js.js"></script>
+</body>
+</html>

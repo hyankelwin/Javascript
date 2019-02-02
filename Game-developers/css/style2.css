@@ -1,0 +1,109 @@
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/fundo2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: -webkit-fill-available;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.container > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    
+}
+.imgGif{
+    border-radius: 10px;
+    border: 4px solid rgb(0, 231, 119);
+    margin: 36px 10px -6px 2px;
+}
+h2{
+    font-family: fantasy;
+    font-size: xx-large;
+    color: rgb(0, 231, 119);;
+}
+h1{
+    color: white;;
+    font-size: 100px;
+    margin-left: 145px;
+    margin-top: 39px;
+    font-family: sans-serif
+}
+
+ul{
+    font-family: sans-serif;
+    margin: 0px 225px 0px 39px;
+    color: white;
+    font-size: 29px;
+    text-align: start;
+}
+
+li{
+    padding: 10px;
+    font-size: x-large;
+}
+
+.container_button {
+    margin-left: 20px
+}
+
+.sub_title{
+    margin-top: 80px; 
+    margin-left: 20px
+}
+
+.sub_title_h2 {
+    margin: 24px 0px -13px 160px;
+}
+
+.container_li {
+    margin: 20px;
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+.myButton {
+	-moz-box-shadow: 0px 0px 18px -2px #3dc21b;
+	-webkit-box-shadow: 0px 0px 18px -2px #3dc21b;
+	box-shadow: 0px 0px 18px -2px #3dc21b;
+	background-color:#5cbf2a;
+	-moz-border-radius:31px;
+	-webkit-border-radius:31px;
+	border-radius:31px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+}
+.myButton:hover {
+	opacity: 0.9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
